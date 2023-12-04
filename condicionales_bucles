@@ -1,0 +1,61 @@
+#If Simple:
+x = 10
+if x > 5:
+    print("x es mayor que 5")
+
+#If-Else:
+x = 4
+if x > 5:
+    print("x es mayor que 5")
+else:
+    print("x es menor o igual a 5")
+
+#If-Elif-Else:
+x = 5
+if x > 5:
+    print("x es mayor que 5")
+elif x < 5:
+    print("x es menor que 5")
+else:
+    print("x es igual a 5")
+
+#If Anidado:
+x = 10
+y = 20
+if x > 5:
+    if y > 15:
+        print("x es mayor que 5 y y es mayor que 15")
+    else:
+        print("x es mayor que 5 pero y no es mayor que 15")
+else:
+    print("x no es mayor que 5")
+
+#Bucles
+#For Loop:
+#Iterar sobre una lista:
+for i in [1, 2, 3, 4, 5]:
+    print(i)
+
+#Iterar sobre un rango:
+for i in range(5):  # Esto va desde 0 hasta 4
+    print(i)
+
+#While Loop:
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+
+#For Loop con Else:
+for i in range(3):
+    print(i)
+else:
+    print("El bucle ha terminado")
+
+#While Loop con Else:
+i = 0
+while i < 3:
+    print(i)
+    i += 1
+else:
+    print("i ya no es menor que 3")
